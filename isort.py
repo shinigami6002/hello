@@ -9,7 +9,6 @@ def insertionSort(array):
         while j >= 0 and key < array[j]:
             array[j + 1] = array[j]
             j = j - 1
-        # Place key at after the element just smaller than it.
         array[j + 1] = key
 
 
